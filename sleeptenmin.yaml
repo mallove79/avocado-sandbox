@@ -1,0 +1,11 @@
+timeout: 1
+variants: !mux
+    variant_A:
+        message: "orange"
+        timeout: 3
+    variant_B:
+        timeout: 5
+        message: "apple"
+    variant_C:
+        message: "banana"
+        timeout: 10
